@@ -71,9 +71,9 @@ export const designSystem = {
    */
   typography: {
     h1: "text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight",
-    h1Gradient: "text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight bg-gradient-to-r from-purple-600 via-violet-500 to-purple-400 dark:from-purple-400 dark:via-violet-300 dark:to-purple-300 bg-clip-text text-transparent",
+    h1Gradient: "text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight bg-gradient-to-r from-purple-600 via-violet-500 to-purple-400 dark:from-purple-400 dark:via-violet-300 dark:to-purple-300 bg-clip-text text-transparent pb-2 leading-[1.2]",
     h2: "text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight",
-    h2Gradient: "text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight bg-gradient-to-r from-purple-600 via-violet-500 to-purple-400 dark:from-purple-400 dark:via-violet-300 dark:to-purple-300 bg-clip-text text-transparent",
+    h2Gradient: "text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight bg-gradient-to-r from-purple-600 via-violet-500 to-purple-400 dark:from-purple-400 dark:via-violet-300 dark:to-purple-300 bg-clip-text text-transparent pb-2 leading-[1.2]",
     h3: "text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight",
     h4: "text-xl md:text-2xl lg:text-3xl font-semibold",
     body: "text-base md:text-lg",

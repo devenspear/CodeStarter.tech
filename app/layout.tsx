@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Agency Template - Next.js + ShadCN + Framer Motion",
-  description: "A modern Next.js template with ShadCN UI, Framer Motion, and a complete design system. Built for Vercel.",
+  title: "CodeStarter.tech - Start Coding at the Speed of Thought",
+  description: "Learn to create real applications using natural language and AI assistants. No coding background required—just describe what you want to build.",
 };
 
 export default function RootLayout({

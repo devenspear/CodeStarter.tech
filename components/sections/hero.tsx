@@ -49,11 +49,7 @@ export function Hero({
           {subtitle && (
             <motion.div
               {...designSystem.animations.fadeIn}
-              className={`${designSystem.typography.small} font-semibold mb-4 flex items-center justify-center gap-2 ${
-                isGradient
-                  ? "text-primary-foreground/80"
-                  : "text-muted-foreground"
-              }`}
+              className={`${designSystem.typography.small} font-semibold mb-4 flex items-center justify-center gap-2 text-muted-foreground`}
             >
               <Sparkles className="w-4 h-4" />
               {subtitle}

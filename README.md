@@ -1,10 +1,10 @@
-# Vibe Coding 101
+# CodeStarter.tech
 
-Build software by talking to AI. A comprehensive educational website teaching absolute beginners how to create real applications using natural language and AI assistants.
+Start coding at the speed of thought. A comprehensive educational website teaching absolute beginners how to create real applications using natural language and AI assistants.
 
 ## 🎯 About This Project
 
-Vibe Coding 101 is a one-page educational resource that teaches:
+CodeStarter.tech is a one-page educational resource that teaches:
 - ✅ What vibe coding is and why it matters
 - ✅ How to go from prompts to deployed applications
 - ✅ Which AI platforms to use at different skill levels
