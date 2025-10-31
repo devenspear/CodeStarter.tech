@@ -64,9 +64,9 @@ export function Hero({
               ...designSystem.animations.fadeInUp.transition,
               delay: 0.1,
             }}
-            className={`${
-              isGradient ? designSystem.typography.h1Gradient : designSystem.typography.h1
-            } mb-6 drop-shadow-2xl`}
+            className={`${designSystem.typography.h1} mb-6 drop-shadow-2xl ${
+              isGradient ? "text-white" : "text-foreground"
+            }`}
           >
             {title}
           </motion.h1>
