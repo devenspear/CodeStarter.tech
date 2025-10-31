@@ -80,7 +80,7 @@ export function Hero({
             }}
             className={`${designSystem.typography.bodyLarge} mb-8 ${
               isGradient
-                ? "text-primary-foreground/90"
+                ? "text-gray-300"
                 : "text-muted-foreground"
             } max-w-2xl mx-auto`}
           >
