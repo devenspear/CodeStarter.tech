@@ -138,10 +138,19 @@ export function ResourceBank() {
                   delay: categoryIndex * 0.1,
                 }}
               >
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
-                    <CategoryIcon className="w-5 h-5 text-primary" />
-                  </div>
+                <div className="flex items-center gap-4 mb-6">
+                  <motion.div
+                    className={`w-16 h-16 rounded-xl flex items-center justify-center bg-gradient-to-br ${
+                      categoryIndex === 0 ? 'from-red-500 to-pink-500' :
+                      categoryIndex === 1 ? 'from-blue-500 to-purple-500' :
+                      categoryIndex === 2 ? 'from-green-500 to-emerald-500' :
+                      'from-orange-500 to-yellow-500'
+                    } shadow-lg`}
+                    whileHover={{ scale: 1.05, rotate: 5 }}
+                    transition={{ type: "spring", stiffness: 300 }}
+                  >
+                    <CategoryIcon className="w-8 h-8 text-white" />
+                  </motion.div>
                   <h3 className={`${designSystem.typography.h3}`}>
                     {category.category}
                   </h3>
