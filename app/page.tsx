@@ -61,7 +61,7 @@ export default function Home() {
       {/* Final CTA */}
       <Cta
         variant="gradient"
-        title="Ready to Start Your Vibe Coding Journey?"
+        title="Ready to Start Your CodeStarter Journey?"
         description="Pick a platform, choose a starter recipe, and build something today. The future of software development is conversational—and you're invited."
         primaryCta={{
           label: "Choose Your Platform",

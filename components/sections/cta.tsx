@@ -37,8 +37,8 @@ export function Cta({
         whileInView={designSystem.animations.fadeInUp.animate}
         viewport={{ once: true }}
         transition={designSystem.animations.fadeInUp.transition}
-        className={`${designSystem.typography.h2} mb-4 ${
-          isGradient ? "text-primary-foreground" : "text-foreground"
+        className={`${isGradient ? designSystem.typography.h2Gradient : designSystem.typography.h2} mb-4 ${
+          !isGradient ? "text-foreground" : ""
         }`}
       >
         {title}
@@ -53,7 +53,7 @@ export function Cta({
           delay: 0.1,
         }}
         className={`${designSystem.typography.bodyLarge} mb-8 ${
-          isGradient ? "text-primary-foreground/90" : "text-muted-foreground"
+          isGradient ? "text-gray-300" : "text-muted-foreground"
         } max-w-2xl mx-auto`}
       >
         {description}
@@ -107,7 +107,7 @@ export function Cta({
   return (
     <section
       className={`${designSystem.spacing.section} ${
-        isGradient ? `bg-gradient-to-br ${designSystem.gradients.primary}` : ""
+        isGradient ? "bg-black" : ""
       }`}
     >
       <div className={designSystem.spacing.containerNarrow}>{content}</div>
